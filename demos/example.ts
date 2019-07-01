@@ -1,6 +1,3 @@
-/**
- * A simple Node for a linked list
- */
 class Node<T> {
   private value: T
   private next: Node<T> | undefined
@@ -22,10 +19,6 @@ class Node<T> {
     return this.prev
   } 
 
-  /**
-   * Test `tes`
-   * @param newPrev 
-   */
   public setPrev(newPrev: Node<T> | undefined) {
     this.prev = newPrev
   }
