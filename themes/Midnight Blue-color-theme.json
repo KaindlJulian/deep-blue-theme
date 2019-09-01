@@ -293,6 +293,7 @@
         "terminal.foreground": "#F2F2F2",
         "terminalCursor.background": "#f2f2f2",
         "terminalCursor.foreground": "#f2f2f2",
+        "terminal.selectionBackground": "#4f6fff7e",
 
         // Git VS Code theme Colors used for file labels and the SCM viewlet.
         // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
