@@ -3,21 +3,16 @@ function Element(value) {
 }
 
 /**
- *Hi I'm  a JSDoc Comment :3
+ * Comment
  *
  * @export
  * @class LinkedList
  */
 export class LinkedList {
-    tailr = '';
     constructor() {
         this.size = 0;
         this.head = null;
         this.tail = null;
-        this.tailr = 'THIS IS a string !"§ DS //(=';
-        setTimeout(x => {
-            console.log(x);
-        }, 100);
     }
 
     pop() {
@@ -31,7 +26,7 @@ export class LinkedList {
             this.tail.prev = null;
         } else {
             this.head = null;
-            this.tail = this.head; // check this out
+            this.tail = this.head;
         }
 
         return value;

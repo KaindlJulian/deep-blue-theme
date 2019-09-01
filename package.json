@@ -1,6 +1,6 @@
 {
-    "name": "midnight-blue-theme",
-    "displayName": "Midnight Blue Theme",
+    "name": "deep-blue-theme",
+    "displayName": "Deep Blue Theme",
     "description": "Simple dark blue theme",
     "version": "0.0.1",
     "publisher": "juliankaindl",
@@ -22,7 +22,7 @@
             {
                 "label": "Midnight Blue",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Midnight Blue-color-theme.json"
+                "path": "./themes/Deep Blue.json"
             }
         ]
     }
