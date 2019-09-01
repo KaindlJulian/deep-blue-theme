@@ -2,7 +2,7 @@
     "name": "deep-blue-theme",
     "displayName": "Deep Blue Theme",
     "description": "Simple dark blue theme",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "juliankaindl",
     "scripts": {
         "generate-demo": "./scripts/generate.sh"
