@@ -14,7 +14,7 @@ struct list_item **new_list(void);
 bool is_list_empty(struct list_item **list);
 
 // inserts item at back of list
-bool push(struct list_item **list, ll_data_t item_data);
+bool push(struct list_Fitem **list, ll_data_t item_data);
 
 // removes item from back of list
 ll_data_t pop(struct list_item **list);

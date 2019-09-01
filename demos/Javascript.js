@@ -9,10 +9,15 @@ function Element(value) {
  * @class LinkedList
  */
 export class LinkedList {
+    tailr = '';
     constructor() {
         this.size = 0;
         this.head = null;
         this.tail = null;
+        this.tailr = 'THIS IS a string !"§ DS //(=';
+        setTimeout(x => {
+            console.log(x);
+        }, 100);
     }
 
     pop() {

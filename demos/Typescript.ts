@@ -5,6 +5,9 @@ class Node<T> {
 
     constructor(value: T) {
         this.value = value;
+        setTimeout((value: T) => {
+            console.log(value);
+        }, 1000);
     }
 
     public getNext(): Node<T> | undefined {
@@ -14,7 +17,7 @@ class Node<T> {
     public setNext(newNext: Node<T> | undefined) {
         this.next = newNext;
     }
-    // Test comment
+
     public getPrev(): Node<T> | undefined {
         return this.prev;
     }
@@ -24,7 +27,6 @@ class Node<T> {
     }
 
     public getValue(): T {
-        const a = 1 + 1; // big brain
         return this.value;
     }
 }
@@ -76,7 +78,6 @@ export default class LinkedList<T> {
         }
 
         return value;
-        return 1;
     }
 
     unshift(value: T) {

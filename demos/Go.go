@@ -18,7 +18,7 @@ func NewNode(v interface{}) *Node {
 		next: nil,
 		prev: nil,
 	}
-}
+} 
 
 // Next returns a pointer to the next node in the linked list.
 func (n *Node) Next() *Node {

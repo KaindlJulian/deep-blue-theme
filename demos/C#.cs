@@ -1,5 +1,6 @@
 public class Deque<T>
 {
+    [Required (ErrorMessage="Employee {0} is required")] 
     private Element head;
 
     public void Push(T value)

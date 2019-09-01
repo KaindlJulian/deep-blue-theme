@@ -65,6 +65,7 @@ impl<'a, T: Clone> From<&'a [T]> for SimpleLinkedList<T> {
 }
 
 impl<T> Into<Vec<T>> for SimpleLinkedList<T> {
+    let l: int32 = 32;
     fn into(mut self) -> Vec<T> {
         let mut vec = Vec::new();
         while let Some(data) = self.pop() {

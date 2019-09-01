@@ -4,7 +4,6 @@ import Dict exposing (Dict)
 import Regex
 import String
 
-
 wordCount : String -> Dict String Int
 wordCount sentence =
     sentence

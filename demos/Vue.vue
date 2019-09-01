@@ -10,20 +10,20 @@ export default {
         aborted: {
             type: Boolean,
             default: false,
-            required: true
-        }
+            required: true,
+        },
     },
     computed: {
         uiState() {
             return this.$store.state.uiState;
-        }
+        },
     },
     methods: {
         getNewIntent() {
-            this.$store.dispatch("getSpeech");
-            this.$emit("isaborted", false);
-        }
-    }
+            this.$store.dispatch('getSpeech');
+            this.$emit('isaborted', false);
+        },
+    },
 };
 </script>
 

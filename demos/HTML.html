@@ -15,7 +15,7 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous"
         />
-
+        <!--THIS IS A HTML COMMENT-->
         <style>
             .test {
                 color: rgb(144, 165, 66);
@@ -25,6 +25,7 @@
             }
             .bd-placeholder-img {
                 text-anchor: middle;
+                --var: 1px;
                 -webkit-user-select: none;
                 -moz-user-select: none;
                 -ms-user-select: none;
@@ -32,6 +33,17 @@
             }
             h1 {
                 font-size: 1.125rem;
+            }
+
+            #id::after {
+                height: 100px;
+            }
+            img {
+                filter: blur(100%);
+                background-image: url('/assets/img.jpg');
+            }
+
+            .class:nth-child(2) {
             }
 
             @media (min-width: 768px) {
@@ -44,7 +56,7 @@
         <link href="dashboard.css" rel="stylesheet" />
     </head>
 
-    <body>
+    <body id="body">
         <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
             <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Company name</a>
             <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search" />
