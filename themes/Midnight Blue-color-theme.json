@@ -122,7 +122,7 @@
 		"tab.activeBorder": "#F7E03C",
 		"tab.inactiveBackground": "#070b2b",
 		"tab.inactiveForeground": "#7B82DF",
-		"tab.unfocusedActiveForeground": "#7B82DF",
+		"tab.unfocusedActiveForeground": "#070b2b",
 		"tab.unfocusedInactiveForeground": "#7B82DF",
 
 		// The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
@@ -178,64 +178,72 @@
 
 		// Lists and Trees.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees
-		"list.dropBackground": "#070929",
-		"list.activeSelectionBackground": "#070929",
+		"list.dropBackground": "#2f365e80",
+		"list.activeSelectionBackground": "#2f365e",
 		"list.activeSelectionForeground": "#F2F2F2",
 		"list.focusBackground": "#070929",
 		"list.focusForeground": "#F2F2F2",
-		"list.highlightForeground": "#F7E03C",
-		"list.hoverBackground": "#070929",
+		"list.highlightForeground": "#F2F2F2",
+		"list.hoverBackground": "#2f365e80",
 		"list.hoverForeground": "#CEC5FF",
-		"list.inactiveSelectionBackground": "#070929",
-		"list.inactiveSelectionForeground": "#AAA",
+		"list.inactiveSelectionBackground": "#2f365e80",
+        "list.inactiveSelectionForeground": "#f2f2f2",
+        "tree.indentGuidesStroke": "#7B82DF",
+        "list.warningForeground": "#ffec60",
+        "list.errorForeground": "#ec3a37",
+
+		// Tree List Filter Colors.
+		"listFilterWidget.background": "#2f365e",
+		"listFilterWidget.outline": "#2f365e",
+        "listFilterWidget.noMatchesOutline": "#EC3A37F5",
 
 		// Merge Conflicts.
 		"merge.border": "#F2F2F200",
-		"merge.commonContentBackground": "#A599E981",
-		"merge.commonHeaderBackground": "#A599E981",
+		"merge.commonContentBackground": "#7B82DF",
+		"merge.commonHeaderBackground": "#7B82DF",
 		"merge.currentContentBackground": "#3ad90093",
 		"merge.currentHeaderBackground": "#3ad90093",
 		"merge.incomingContentBackground": "#ff730086",
 		"merge.incomingHeaderBackground": "#ff730086",
 
 		// Notification Colors.
-		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
+		"notificationCenter.border": "#0f1750", // Notification Center border color.
 		"notificationCenterHeader.foreground": "#F2F2F2", // Notification Center header foreground color.
-		"notificationCenterHeader.background": "#6943FF", // Notification Center header background color.
-		"notificationToast.border": "#1E1E3F", // Notification toast border color.
-		"notifications.foreground": "#CEC5FF", // Notification foreground color.
-		"notifications.background": "#1E1E3F", // Notification background color.
+		"notificationCenterHeader.background": "#0f1750", // Notification Center header background color.
+		"notificationToast.border": "#2f365e", // Notification toast border color.
+		"notifications.foreground": "#f2f2f2", // Notification foreground color.
+		"notifications.background": "#2f365e", // Notification background color.
 		"notifications.border": "#070929", // Notification border color separating from other notifications in the Notification Center.
 		"notificationLink.foreground": "#F2F2F2", // Notification links foreground color.
 
 		// Panel.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
-		"panel.background": "#1E1E3F",
-		"panel.border": "#F7E03C",
+		"panel.background": "#070b2b",
+		"panel.border": "#070b2b",
 		"panelTitle.activeBorder": "#F7E03C",
 		"panelTitle.activeForeground": "#F7E03C",
-		"panelTitle.inactiveForeground": "#A599E9",
+		"panelTitle.inactiveForeground": "#7B82DF",
 
 		// Peek View Colors.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors
-		"peekView.border": "#F7E03C",
-		"peekViewEditor.background": "#1E1E3F",
-		"peekViewEditor.matchHighlightBackground": "#19354900",
-		"peekViewEditorGutter.background": "#191935",
-		"peekViewResult.background": "#1E1E3F",
-		"peekViewResult.fileForeground": "#AAA",
+		"peekView.border": "#f7e13cb2",
+		"peekViewEditor.background": "#070b2b",
+		"peekViewEditor.matchHighlightBackground": "#3c5ef77e",
+		"peekViewEditorGutter.background": "#090e36",
+		"peekViewResult.background": "#05081f",
+		"peekViewResult.fileForeground": "#dddddd",
 		"peekViewResult.lineForeground": "#F2F2F2",
 		"peekViewResult.matchHighlightBackground": "#070929",
 		"peekViewResult.selectionBackground": "#070929",
 		"peekViewResult.selectionForeground": "#F2F2F2",
-		"peekViewTitle.background": "#1F1F41",
-		"peekViewTitleDescription.foreground": "#AAA",
+		"peekViewTitle.background": "#05081f",
+		"peekViewTitleDescription.foreground": "#dddddd",
 		"peekViewTitleLabel.foreground": "#F7E03C",
 
 		// Quick Picker.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker
-		"pickerGroup.border": "#1E1E3F",
-		"pickerGroup.foreground": "#A599E9",
+		"pickerGroup.border": "#7B82DF",
+		"pickerGroup.foreground": "#F7E03C",
 
 		// Progress Bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
@@ -243,25 +251,25 @@
 
 		// Scroll Bar Control.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
-		"scrollbar.shadow": "#a599e981",
-		"scrollbarSlider.background": "#a599e981",
-		"scrollbarSlider.hoverBackground": "#4D21FC",
-		"scrollbarSlider.activeBackground": "#F7E03C",
+		"scrollbar.shadow": "#000002c9",
+		"scrollbarSlider.background": "#22295f80",
+		"scrollbarSlider.hoverBackground": "#0f1750",
+		"scrollbarSlider.activeBackground": "#f7e13ca8",
 
 		// Status Bar Colors.
 		// The Status Bar is shown in the bottom of the workbench.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
-		"statusBar.border": "#1E1E3F",
-		"statusBar.background": "#1E1E3F",
-		"statusBar.foreground": "#A599E9",
+		"statusBar.border": "#05081f",
+		"statusBar.background": "#05081f",
+		"statusBar.foreground": "#7B82DF",
 		"statusBar.debuggingBackground": "#F7E03C",
-		"statusBar.debuggingForeground": "#1E1E3F",
-		"statusBar.noFolderBackground": "#1E1E3F",
-		"statusBar.noFolderForeground": "#A599E9",
-		"statusBarItem.activeBackground": "#4D21FC",
-		"statusBarItem.hoverBackground": "#4D21FC",
-		"statusBarItem.prominentBackground": "#1E1E3F",
-		"statusBarItem.prominentHoverBackground": "#070929",
+		"statusBar.debuggingForeground": "#0A0E41",
+		"statusBar.noFolderBackground": "#F7E03C",
+		"statusBar.noFolderForeground": "#0A0E41",
+		"statusBarItem.activeBackground": "#7B82DF59",
+		"statusBarItem.hoverBackground": "#7B82DF40",
+		"statusBarItem.prominentBackground": "#f7e13ca8",
+		"statusBarItem.prominentHoverBackground": "#F7E03C",
 
 		// Integrated Terminal Colors.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
@@ -281,7 +289,7 @@
 		"terminal.ansiBrightMagenta": "#FB94FF",
 		"terminal.ansiBrightCyan": "#80FCFF",
 		"terminal.ansiBrightWhite": "#070929",
-		"terminal.background": "#1E1E3F",
+		"terminal.background": "#070b2b",
 		"terminal.foreground": "#F2F2F2",
 		"terminalCursor.background": "#F7E03C",
 		"terminalCursor.foreground": "#F7E03C",
@@ -299,60 +307,55 @@
 		"textBlockQuote.background": "#1E1E3F",
 		"textBlockQuote.border": "#6943FF",
 		"textCodeBlock.background": "#1E1E3F",
-		"textLink.activeForeground": "#B362FF",
-		"textLink.foreground": "#B362FF",
-		"textPreformat.foreground": "#F7E03C",
-		"textSeparator.foreground": "#1E1E3F",
+		"textLink.activeForeground": "#F7E03C",
+		"textLink.foreground": "#ddd",
+		//"textPreformat.foreground": "#ff0000",
+		//"textSeparator.foreground": "#ff0000",
 
 		// Title bar.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
-		"titleBar.activeBackground": "#1E1E3F",
+		"titleBar.activeBackground": "#05081f",
 		"titleBar.activeForeground": "#F2F2F2",
-		"titleBar.inactiveBackground": "#1E1E3F",
-		"titleBar.inactiveForeground": "#A599E9",
-		"walkThrough.embeddedEditorBackground": "#1E1E3F",
-		"welcomePage.buttonBackground": "#1E1E3F",
-		"welcomePage.buttonHoverBackground": "#262650",
-		"widget.shadow": "#00000026",
+		"titleBar.inactiveBackground": "#070b2b",
+		"titleBar.inactiveForeground": "#ddd",
+		"walkThrough.embeddedEditorBackground": "#05081f",
+		"welcomePage.buttonBackground": "#2f365e",
+		"welcomePage.buttonHoverBackground": "#2f365e94",
+		"widget.shadow": "#00000050",
 
 		// Breadcrumbs.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
-		"breadcrumb.foreground": "#A599E9",
-		"breadcrumb.focusForeground": "#F7E03C",// Color of focused breadcrumb items.
-		"breadcrumb.activeSelectionForeground": "#F2F2F2",// Color of selected breadcrumb items.
-		"breadcrumbPicker.background": "#1E1E3F",// Background color of breadcrumb item picker.
+		"breadcrumb.foreground": "#7B82DF",
+		"breadcrumb.focusForeground": "#F7E03C", // Color of focused breadcrumb items.
+		"breadcrumb.activeSelectionForeground": "#F2F2F2", // Color of selected breadcrumb items.
+		"breadcrumbPicker.background": "#070b2b", // Background color of breadcrumb item picker.
 
 		// New Settings Editor.
 		// https://code.visualstudio.com/docs/getstarted/theme-color-reference#_settings-editor-colors
 		"settings.headerForeground": "#F2F2F2",
-		"settings.dropdownBackground": "#1E1E3F",
-		"settings.checkboxBackground": "#1E1E3F",
-		"settings.textInputBackground": "#1E1E3F",
-		"settings.numberInputBackground": "#1E1E3F",
+		"settings.dropdownBackground": "#070929",
+		"settings.checkboxBackground": "#070929",
+		"settings.textInputBackground": "#070929",
+		"settings.numberInputBackground": "#070929",
 		"settings.dropdownForeground": "#E5E4FB",
 		"settings.checkboxForeground": "#E5E4FB",
 		"settings.textInputForeground": "#E5E4FB",
 		"settings.numberInputForeground": "#E5E4FB",
-		"settings.dropdownBorder": "#1E1E3F",
-		"settings.checkboxBorder": "#1E1E3F",
-		"settings.textInputBorder": "#1E1E3F",
-		"settings.numberInputBorder": "#1E1E3F",
+		"settings.dropdownBorder": "#0f1750",
+		"settings.checkboxBorder": "#0f1750",
+		"settings.textInputBorder": "#0f1750",
+		"settings.numberInputBorder": "#0f1750",
 		"settings.dropdownListBorder" : "#070929",
 		"settings.modifiedItemIndicator" : "#F7E03C",
 
 		// Customizable menu.
-		"menu.separatorBackground":"#A599E9",
+		"menu.separatorBackground":"#7B82DF",
 
 		// Tab stops.
-		"editor.snippetTabstopHighlightBackground": "#6943ff62",
-		"editor.snippetTabstopHighlightBorder": "#6943ff62",
-		"editor.snippetFinalTabstopHighlightBackground": "#6943ff62",
-		"editor.snippetFinalTabstopHighlightBorder": "#6943ff62",
-
-		// Tree List Filter Colors.
-		"listFilterWidget.background": "#070929",
-		"listFilterWidget.outline": "#070929",
-		"listFilterWidget.noMatchesOutline": "#EC3A37F5",
+		"editor.snippetTabstopHighlightBackground": "#4f6fff7e",
+		"editor.snippetTabstopHighlightBorder": "#4f6fff7e",
+		"editor.snippetFinalTabstopHighlightBackground": "#58588173",
+		"editor.snippetFinalTabstopHighlightBorder": "#58588173",
 
 		// TODO: Colors to be added.
 		// "inputValidation.infoForeground": "#F7E03C", // Input validation foreground color for information severity.
@@ -367,7 +370,7 @@
 			"name": "[COMMENTS] — The main comments color",
 			"scope": ["comment", "punctuation.definition.comment"],
 			"settings": {
-				"foreground": "#B362FF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -1523,7 +1526,6 @@
 			"scope": [
 				"modifier",
 				"this",
-				"comment",
 				"storage.modifier.js",
 				"entity.other.attribute-name.js",
 				"entity.other.attribute-name.html",

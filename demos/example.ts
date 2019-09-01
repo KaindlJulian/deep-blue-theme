@@ -24,7 +24,7 @@ class Node<T> {
     }
 
     public getValue(): T {
-        const a = 1 + 1;
+        const a = 1 + 1; // big brain
         return this.value;
     }
 }

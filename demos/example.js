@@ -2,6 +2,12 @@ function Element(value) {
     return { value, next: null, prev: null };
 }
 
+/**
+ *Hi I'm  a JSDoc Comment :3
+ *
+ * @export
+ * @class LinkedList
+ */
 export class LinkedList {
     constructor() {
         this.size = 0;
@@ -20,7 +26,7 @@ export class LinkedList {
             this.tail.prev = null;
         } else {
             this.head = null;
-            this.tail = this.head;
+            this.tail = this.head; // check this out
         }
 
         return value;
