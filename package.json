@@ -12,10 +12,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/KaindlJulian/midnight-blue-theme.git"
+        "url": "https://github.com/KaindlJulian/deep-blue-theme.git"
+    },
+    "icon": "logo.png",
+    "galleryBanner": {
+        "color": "#090E36",
+        "theme": "dark"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "blue"
     ],
     "contributes": {
         "themes": [

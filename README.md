@@ -9,11 +9,15 @@
 <p align="center">
   <!-- marketplace version -->
   <a href="https://marketplace.visualstudio.com/items?itemName=juliankaindl.deep-blue-theme">
-    <img alt="marketplace version" src="https://img.shields.io/vscode-marketplace/v/juliankaindl.deep-blue-theme.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=7B82DF">
+    <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/juliankaindl.deep-blue-theme?color=7B82DF&style=for-the-badge">
   </a>
   <!-- downloads -->
   <a href="https://marketplace.visualstudio.com/items?itemName=juliankaindl.deep-blue-theme">
-    <img alt="downloads" src="https://img.shields.io/visual-studio-marketplace/d/juliankaindl.deep-blue-theme.svg?maxAge=3600&style=for-the-badge&labelColor=1C1E26&color=7B82DF">
+    <img alt="Visual Studio Marketplace Downloads" src="https://img.shields.io/visual-studio-marketplace/d/juliankaindl.deep-blue-theme?color=7B82DF&style=for-the-badge">
+  </a>
+  <!-- stars -->
+  <a href="https://marketplace.visualstudio.com/items?itemName=juliankaindl.deep-blue-theme">
+    <img alt="Visual Studio Marketplace Rating (Stars)" src="https://img.shields.io/visual-studio-marketplace/stars/juliankaindl.deep-blue-theme?color=7B82DF&style=for-the-badge">
   </a>
 </p>
 
