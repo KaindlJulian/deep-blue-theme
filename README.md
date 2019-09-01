@@ -25,7 +25,7 @@ This is a dark blue theme inspired by [NightOwl](https://marketplace.visualstudi
 
 <br/><br/>
 
-## <img alt="install" src="resources/install.svg" height="32" align="top"> Installation
+## <img alt="install" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/resources/install.png" height="32" align="top"> Installation
 
 1. Open the extensions sidebar (`Ctrl + Shift + X`)
 2. Search for "Deep Blue"
@@ -38,7 +38,7 @@ This is a dark blue theme inspired by [NightOwl](https://marketplace.visualstudi
 
 <br/><br/>
 
-## <img alt="install" src="resources/images.svg" height="32" align="top"> Example Screenshots
+## <img alt="install" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/resources/images.png" height="32" align="top"> Example Screenshots
 
 ### Javascript
 
