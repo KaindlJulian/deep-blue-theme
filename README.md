@@ -42,31 +42,31 @@ This is a dark blue theme inspired by [NightOwl](https://marketplace.visualstudi
 
 ### Javascript
 
-<img alt="javascript-syntax" src="images/javascript.png" width="100%">
+<img alt="javascript-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/javascript.png" width="100%">
 
 ### Typescript
 
-<img alt="typescript-syntax" src="images/typescript.png" width="100%">
+<img alt="typescript-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/typescript.png" width="100%">
 
 ### HTML
 
-<img alt="html-syntax" src="images/html.png" width="100%">
+<img alt="html-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/html.png" width="100%">
 
 ### CSS / SCSS
 
-<img alt="scss-syntax" src="images/scss.png" width="100%">
+<img alt="scss-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/scss.png" width="100%">
 
 ### React / JSX
 
-<img alt="react-syntax" src="images/react.png" width="100%">
+<img alt="react-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/react.png" width="100%">
 
 ### Vue
 
-<img alt="vue-syntax" src="images/vue.png" width="100%">
+<img alt="vue-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/vue.png" width="100%">
 
 ### Rust
 
-<img alt="rust-syntax" src="images/rust.png" width="100%">
+<img alt="rust-syntax" src="https://raw.githubusercontent.com/KaindlJulian/deep-blue-theme/master/images/rust.png" width="100%">
 
 <br/><br/>
 
