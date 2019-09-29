@@ -25,6 +25,8 @@
 
 > _Not the chess computer_
 
+---
+
 This is a dark blue theme inspired by [NightOwl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) and [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
 
 <br/><br/>

@@ -5,7 +5,10 @@
     "version": "1.0.8",
     "publisher": "juliankaindl",
     "scripts": {
-        "generate-demo": "./scripts/generate.sh"
+        "generate-demo": "./scripts/generate.sh",
+        "publish-major": "vsce publish major",
+        "publish-minor": "vsce publish minor",
+        "publish-patch": "vsce publish patch"
     },
     "engines": {
         "vscode": "^1.35.0"
@@ -26,7 +29,8 @@
         "theme",
         "dark",
         "deep",
-        "blue"
+        "blue",
+        "yellow"
     ],
     "contributes": {
         "themes": [

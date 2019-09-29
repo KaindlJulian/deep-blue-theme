@@ -5,6 +5,10 @@
     "name": "Midnight Blue",
     "type": "dark",
     "colors": {
+        // Defaults
+        "focusBorder": "#0000",
+        "foreground": "#7B82DF",
+
         // Activity Bar.
         // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
         "activityBar.background": "#05081f",
@@ -158,8 +162,6 @@
         "extensionButton.prominentBackground": "#f7e13cb2",
         "extensionButton.prominentForeground": "#0A0E41",
         "extensionButton.prominentHoverBackground": "#F7E03C",
-        "focusBorder": "#7B82DF",
-        "foreground": "#7B82DF",
 
         // Input Control.
         // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
