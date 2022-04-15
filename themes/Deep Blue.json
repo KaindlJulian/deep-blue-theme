@@ -13,7 +13,6 @@
         // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
         "activityBar.background": "#05081f",
         "activityBar.border": "#070929",
-        "activityBar.dropBackground": "#7B82DF40",
         "activityBar.foreground": "#F2F2F2",
         "activityBar.inactiveForeground": "#7B82DF",
         "activityBarBadge.foreground": "#0A0E41",
@@ -322,8 +321,6 @@
         "titleBar.inactiveBackground": "#070b2b",
         "titleBar.inactiveForeground": "#ddd",
         "walkThrough.embeddedEditorBackground": "#05081f",
-        "welcomePage.buttonBackground": "#2f365e",
-        "welcomePage.buttonHoverBackground": "#2f365e94",
         "widget.shadow": "#00000050",
 
         // Breadcrumbs.
@@ -980,7 +977,7 @@
             "name": "[MARKDOWN] - Color for Emphasis Italic",
             "scope": "markup.italic.markdown",
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         },
         {
@@ -1519,7 +1516,7 @@
                 "entity.other.attribute-name.tag.pug"
             ],
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         },
         {
